@@ -1,6 +1,6 @@
 const db = globalThis.{ auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
 
-**Welcome to your Base44 project** 
+**Welcome to your project** 
 
 **About**
 
